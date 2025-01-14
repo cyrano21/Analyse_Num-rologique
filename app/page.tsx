@@ -6,6 +6,72 @@ import { generatePredictions, Prediction, PredictionResult } from '../utils/pred
 import { drawTarotCard, drawTarotSpread, MAJOR_ARCANA, DEFAULT_CARD, TarotCard } from '../utils/cartomancy';
 import { analyzePersonalityTraits, generateLifeInsights, generateIntroDescription } from '../utils/huggingface';
 
+const enneagramTypes = [
+  {
+    type: '1',
+    label: 'Type 1 : Le Réformateur',
+    description: 'Perfectionniste, organisé, avec un fort sens moral et éthique.',
+    color: 'bg-red-100 text-red-800',
+    icon: '✔️'
+  },
+  {
+    type: '2',
+    label: 'Type 2 : L\'Assistant',
+    description: 'Chaleureux, empathique, toujours prêt à aider les autres.',
+    color: 'bg-pink-100 text-pink-800',
+    icon: '❤️'
+  },
+  {
+    type: '3',
+    label: 'Type 3 : L\'Accompli',
+    description: 'Ambitieux, dynamique, orienté vers le succès et la performance.',
+    color: 'bg-yellow-100 text-yellow-800',
+    icon: '🏆'
+  },
+  {
+    type: '4',
+    label: 'Type 4 : L\'Individualiste',
+    description: 'Créatif, émotionnel, à la recherche de sens et d\'authenticité.',
+    color: 'bg-purple-100 text-purple-800',
+    icon: '🎨'
+  },
+  {
+    type: '5',
+    label: 'Type 5 : L\'Investigateur',
+    description: 'Analytique, curieux, en quête de connaissances et de compréhension.',
+    color: 'bg-blue-100 text-blue-800',
+    icon: '🔬'
+  },
+  {
+    type: '6',
+    label: 'Type 6 : Le Loyaliste',
+    description: 'Responsable, engagé, cherchant la sécurité et la stabilité.',
+    color: 'bg-green-100 text-green-800',
+    icon: '🛡️'
+  },
+  {
+    type: '7',
+    label: 'Type 7 : L\'Enthousiaste',
+    description: 'Optimiste, aventureux, à la recherche de nouvelles expériences.',
+    color: 'bg-orange-100 text-orange-800',
+    icon: '🌈'
+  },
+  {
+    type: '8',
+    label: 'Type 8 : Le Leader',
+    description: 'Puissant, protecteur, avec un fort désir de contrôle et de justice.',
+    color: 'bg-indigo-100 text-indigo-800',
+    icon: '💪'
+  },
+  {
+    type: '9',
+    label: 'Type 9 : Le Médiateur',
+    description: 'Pacifique, conciliant, en harmonie avec son environnement.',
+    color: 'bg-teal-100 text-teal-800',
+    icon: '☮️'
+  }
+];
+
 export default function Home() {
   const [formData, setFormData] = useState({
     name: 'NKENG HIAG LOUIS OLIVIER',
@@ -209,15 +275,45 @@ export default function Home() {
               <div>
                 <label className="block text-gray-700 font-semibold mb-2">
                   Type d'Ennéagramme
-                  <select 
-                    value={formData.enneagram}
-                    onChange={(e) => setFormData({...formData, enneagram: e.target.value})}
-                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200"
-                  >
-                    {['1', '2', '3', '4', '5', '6', '7', '8', '9'].map(type => (
-                      <option key={type} value={type}>Type {type}</option>
-                    ))}
-                  </select>
+                  <div className="relative">
+                    <select 
+                      value={formData.enneagram}
+                      onChange={(e) => setFormData({...formData, enneagram: e.target.value})}
+                      className="appearance-none w-full bg-white border border-gray-300 rounded-lg pl-4 pr-10 py-3 
+                        focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent 
+                        text-gray-700 font-medium transition-all duration-300 ease-in-out"
+                    >
+                      {enneagramTypes.map(type => (
+                        <option 
+                          key={type.type} 
+                          value={type.type} 
+                          className={`${type.color} font-semibold`}
+                          title={type.description}
+                        >
+                          {type.icon} {type.label}
+                        </option>
+                      ))}
+                    </select>
+                    <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-gray-700">
+                      <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                        <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                      </svg>
+                    </div>
+                  </div>
+                  {/* Description dynamique */}
+                  <div className="mt-3 p-3 bg-purple-50 rounded-lg shadow-sm transition-all duration-300 ease-in-out">
+                    <div className="flex items-center space-x-3">
+                      <span className="text-2xl">
+                        {enneagramTypes.find(t => t.type === formData.enneagram)?.icon}
+                      </span>
+                      <p className="text-sm text-gray-700">
+                        {enneagramTypes.find(t => t.type === formData.enneagram)?.description}
+                      </p>
+                    </div>
+                    <p className="text-xs text-gray-500 mt-2">
+                      L'Ennéagramme : Un système de personnalité qui révèle vos motivations profondes et vos mécanismes de défense.
+                    </p>
+                  </div>
                 </label>
               </div>
             </div>
