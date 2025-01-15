@@ -1,185 +1,136 @@
 import { HfInference } from '@huggingface/inference';
 
-const apiKey = process.env.NEXT_PUBLIC_HUGGINGFACE_API_KEY;
+const HF_TOKEN = process.env.HUGGINGFACE_API_TOKEN || process.env.NEXT_PUBLIC_HUGGINGFACE_API_KEY;
+const inference = new HfInference(HF_TOKEN);
 
-// Créer l'instance Hugging Face uniquement si la clé est présente
-const hf = apiKey ? new HfInference(apiKey) : null;
-
-interface PersonalityAnalysis {
-  emotion: string
-  confidence: number
-  interpretation: string
-}
-
-interface GenerationOptions {
-  temperature?: number;
-  maxLength?: number;
-}
-
-export async function generatePersonalizedText(prompt: string, model: string = 'gpt2') {
+// Analyse des traits de personnalité
+export const analyzePersonalityTraits = async (name: string) => {
   try {
-    if (!hf) {
-      console.warn('Hugging Face API not configured. Using fallback text generation.');
-      return `Texte généré basé sur : ${prompt}. 
-      Veuillez configurer l'API Hugging Face pour des résultats plus précis.`;
-    }
+    const response = await inference.textGeneration({
+      model: 'gpt2',
+      inputs: `Analysez les traits de personnalité associés au prénom ${name}:`,
+      parameters: {
+        max_length: 100,
+        temperature: 0.7
+      }
+    });
+    
+    return [{
+      trait: response.generated_text,
+      confidence: 0.8
+    }];
+  } catch (error) {
+    console.error('Erreur lors de l\'analyse des traits:', error);
+    return [];
+  }
+};
 
-    const response = await hf.textGeneration({
+// Génération d'insights sur la vie
+export const generateLifeInsights = async (params: {
+  name: string;
+  birthdate: string;
+  lifeAspect: string;
+}) => {
+  try {
+    const response = await inference.textGeneration({
+      model: 'gpt2',
+      inputs: `Générez des insights pour ${params.name}, né(e) le ${params.birthdate}, concernant ${params.lifeAspect}:`,
+      parameters: {
+        max_length: 150,
+        temperature: 0.8
+      }
+    });
+    
+    return response.generated_text;
+  } catch (error) {
+    console.error('Erreur lors de la génération des insights:', error);
+    return 'Impossible de générer des insights pour le moment.';
+  }
+};
+
+// Génération de description d'introduction
+export const generateIntroDescription = async (name: string) => {
+  try {
+    const response = await inference.textGeneration({
+      model: 'gpt2',
+      inputs: `Créez une introduction personnalisée pour ${name}:`,
+      parameters: {
+        max_length: 100,
+        temperature: 0.6
+      }
+    });
+    
+    return response.generated_text;
+  } catch (error) {
+    console.error('Erreur lors de la génération de l\'introduction:', error);
+    return 'Introduction personnalisée indisponible.';
+  }
+};
+
+// Analyse des réponses personnelles
+export const analyzePersonalResponses = async (responses: string[]) => {
+  try {
+    const combinedResponses = responses.join(' ');
+    const response = await inference.textClassification({
+      model: 'SamLowe/roberta-base-go_emotions',
+      inputs: combinedResponses
+    });
+    
+    return response;
+  } catch (error) {
+    console.error('Erreur lors de l\'analyse des réponses:', error);
+    return 'Analyse impossible pour le moment.';
+  }
+};
+
+// Génération de questions contextuelles
+export const generateContextualQuestions = async (
+  gameType: string,
+  previousAnswers: string[],
+  name: string
+) => {
+  try {
+    const context = `Type de jeu: ${gameType}\nRéponses précédentes: ${previousAnswers.join(', ')}\nNom: ${name}`;
+    const response = await inference.textGeneration({
+      model: 'gpt2',
+      inputs: `Générez une question contextuelle basée sur: ${context}`,
+      parameters: {
+        max_length: 50,
+        temperature: 0.7
+      }
+    });
+    
+    return response.generated_text;
+  } catch (error) {
+    console.error('Erreur lors de la génération des questions:', error);
+    return 'Questions contextuelles indisponibles.';
+  }
+};
+
+// Personnalisation du message de bienvenue
+export const personalizeWelcome = (name: string, gameType: string, gender: string = 'male') => {
+  const readyText = gender === 'female' ? 'Prête' : 'Prêt';
+  return `Bienvenue ${name} dans votre parcours de ${gameType}! ${readyText} pour une expérience personnalisée ?`;
+};
+
+// Génération de texte personnalisé
+export const generatePersonalizedText = async (
+  prompt: string,
+  model: string = 'gpt2'
+) => {
+  try {
+    const response = await inference.textGeneration({
       model: model,
       inputs: prompt,
       parameters: {
-        max_new_tokens: 250,
-        temperature: 0.7,
-        top_p: 0.9,
-        repetition_penalty: 1.2
+        max_length: 100,
+        temperature: 0.7
       }
     });
-
-    return response.generated_text || 'Aucune interprétation générée.';
-  } catch (error) {
-    console.error('Erreur lors de la génération de texte:', error);
-    return `Erreur de génération de texte. Prompt original : ${prompt}`;
-  }
-}
-
-export async function analyzePersonalityTraits(input: string): Promise<PersonalityAnalysis[]> {
-  try {
-    if (!hf) {
-      console.warn('Hugging Face API not configured. Using fallback personality analysis.');
-      return [{
-        emotion: 'Neutre',
-        confidence: 0.5,
-        interpretation: `Analyse de personnalité basique pour ${input}. 
-        Veuillez configurer l'API Hugging Face pour des résultats plus précis.`
-      }];
-    }
-
-    // Emotion detection
-    const emotionModel = 'cardiffnlp/twitter-roberta-base-emotion'
-    const emotionResults = await hf.textClassification({
-      model: emotionModel,
-      inputs: input
-    });
-
-    // Personality trait analysis
-    const personalityResults = await hf.textClassification({
-      model: 'j-hartmann/emotion-english-distilroberta-base',
-      inputs: input
-    });
-
-    return personalityResults.map((result, index) => ({
-      emotion: result.label,
-      confidence: result.score,
-      interpretation: generateEmotionInterpretation(result.label, emotionResults[index].score)
-    }));
-  } catch (error) {
-    console.error('Erreur lors de l\'analyse des traits de personnalité:', error);
-    return [{
-      emotion: 'Erreur',
-      confidence: 0,
-      interpretation: `Impossible d'analyser la personnalité de ${input}`
-    }];
-  }
-}
-
-function generateEmotionInterpretation(emotion: string, confidence: number): string {
-  const interpretations: { [key: string]: string } = {
-    'joy': 'Votre énergie positive et votre optimisme sont des atouts majeurs.',
-    'sadness': 'Prenez soin de votre bien-être émotionnel et n\'hésitez pas à demander du soutien.',
-    'anger': 'Canalisez votre passion et transformez cette énergie en motivation constructive.',
-    'fear': 'Vos inquiétudes peuvent être des opportunités de croissance personnelle.',
-    'surprise': 'Restez ouvert aux nouvelles expériences et opportunités inattendues.',
-    'neutral': 'Vous avez une approche équilibrée et réfléchie de la vie.'
-  };
-
-  const baseInterpretation = interpretations[emotion.toLowerCase()] || 'Votre profil émotionnel est unique et complexe.';
-  
-  return `${baseInterpretation} (Confiance: ${(confidence * 100).toFixed(2)}%)`
-}
-
-export async function generateLifeInsights(personalData: {
-  name: string, 
-  birthdate: string, 
-  lifeAspect: string
-}): Promise<string> {
-  try {
-    if (!hf) {
-      console.warn('Hugging Face API not configured. Using fallback life insights.');
-      return `Perspectives de vie génériques pour ${personalData.name}. 
-      Veuillez configurer l'API Hugging Face pour des résultats plus personnalisés.`;
-    }
-
-    const prompt = `Générer une analyse personnalisée et profonde pour ${personalData.name}, 
-    né(e) le ${personalData.birthdate}, en se concentrant sur ${personalData.lifeAspect}. 
-    Fournir des perspectives uniques et des conseils inspirants.`;
-
-    const insight = await generatePersonalizedText(prompt, 'EleutherAI/gpt-neo-1.3B');
-    return insight;
-  } catch (error) {
-    console.error('Erreur lors de la génération des perspectives de vie:', error);
-    return `Impossible de générer des perspectives de vie pour ${personalData.name}`;
-  }
-}
-
-async function generateIntroDescription(
-  topic: 'numerologie' | 'tarot', 
-  options: GenerationOptions = {}
-): Promise<string> {
-  const defaultOptions = {
-    temperature: 0.7,
-    maxLength: 500
-  };
-  
-  const mergedOptions = { ...defaultOptions, ...options };
-
-  const prompts = {
-    numerologie: `L'Analyse Numérologique est une pratique fascinante qui explore la signification des nombres dans votre vie. 
-    Chaque nombre, basé sur votre date de naissance et votre nom, raconte une histoire unique de votre personnalité, 
-    de vos talents et de votre chemin de vie. Ce n'est pas de la magie, mais une méthode de découverte de soi 
-    qui vous aide à mieux comprendre vos forces, vos défis et votre potentiel. 
-  
-    Imaginez les nombres comme des clés qui déverrouillent les mystères de votre être intérieur. 
-    Chaque chiffre a une vibration, une énergie qui peut vous éclairer sur vos tendances naturelles, 
-    vos capacités cachées et les opportunités qui vous attendent. 
-  
-    L'Analyse Numérologique n'est ni un jugement, ni une prédiction figée, mais un outil de 
-    développement personnel qui vous invite à la réflexion et à la croissance. 
-    C'est un voyage vers une meilleure compréhension de vous-même.`,
     
-    tarot: `Le Tirage de Cartes de Tarot est bien plus qu'une simple divination. 
-    C'est un miroir symbolique qui vous aide à explorer vos pensées, vos émotions et vos intuitions. 
-    Chaque carte est comme une fenêtre ouverte sur votre monde intérieur, révélant des perspectives 
-    que votre conscience immédiate n'aperçoit pas toujours.
-
-    Contrairement aux idées reçues, le Tarot n'est pas une boule de cristal qui prédit l'avenir de manière absolue. 
-    C'est un outil de réflexion personnelle, un guide bienveillant qui vous accompagne dans votre 
-    compréhension de situations complexes. Les cartes ne décident pas de votre destin, 
-    elles vous offrent des clés pour mieux le comprendre et l'orienter.
-
-    Chaque tirage est unique, comme une conversation intuitive avec vous-même. 
-    Il vous invite à la méditation, à l'introspection, et à développer votre sagesse intérieure. 
-    Le Tarot est un art de l'écoute de soi, sans jugement, avec ouverture et compassion.`
-  };
-
-  if (!hf) {
-    return `Introduction à ${topic} non disponible. Veuillez réessayer plus tard.`;
-  }
-
-  try {
-    const result = await hf.textGeneration({
-      model: 'gpt2',
-      inputs: prompts[topic],
-      parameters: {
-        max_new_tokens: mergedOptions.maxLength,
-        temperature: mergedOptions.temperature
-      }
-    });
-
-    return result.generated_text || 'Génération de texte indisponible.';
+    return response.generated_text;
   } catch (error) {
-    console.error(`Erreur lors de la génération pour ${topic}:`, error);
-    return `Introduction à ${topic} temporairement indisponible.`;
+    console.error('Erreur lors de la génération du texte:', error);
+    return 'Génération de texte impossible pour le moment.';
   }
-}
-
-export { generateIntroDescription };
+};
