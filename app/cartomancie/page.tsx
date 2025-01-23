@@ -11,6 +11,7 @@ export default function CartomancyPage() {
     interpretation: string;
   } | null>(null);
   const [showTarotDescription, setShowTarotDescription] = useState(true);
+  const [spreadType, setSpreadType] = useState<'Single' | 'ThreePast' | 'Celtic'>('Single');
 
   const handleDrawCard = () => {
     if (spreadType === 'Single') {
@@ -39,8 +40,6 @@ export default function CartomancyPage() {
     setDrawnSpread(null);
     setShowTarotDescription(true);
   };
-
-  const [spreadType, setSpreadType] = useState<'Single' | 'ThreePast' | 'Celtic'>('Single');
 
   return (
     <div className="container mx-auto px-4 py-8 min-h-screen bg-gradient-to-br from-indigo-50 to-purple-100 
