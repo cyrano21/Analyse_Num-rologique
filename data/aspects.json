@@ -1,0 +1,163 @@
+{
+  "love": {
+    "title": "Amour et Relations",
+    "description": "Aspects liés aux relations amoureuses, familiales et amicales.",
+    "keywords": [
+      "amour",
+      "relation",
+      "sentimental",
+      "couple",
+      "affectif"
+    ],
+    "themes": [
+      "Relations amoureuses",
+      "Vie de couple",
+      "Harmonie relationnelle",
+      "Attachement",
+      "Intimité"
+    ],
+    "prediction_template": {
+      "title": "💝 Perspectives Amoureuses",
+      "sections": [
+        "État actuel",
+        "Influences planétaires",
+        "Défis et opportunités",
+        "Conseils spécifiques"
+      ],
+      "focus_points": [
+        "Qualité des relations",
+        "Développement émotionnel",
+        "Communication affective",
+        "Équilibre relationnel"
+      ]
+    }
+  },
+  "career": {
+    "title": "Carrière et Finances",
+    "description": "Aspects professionnels, financiers et matériels.",
+    "keywords": [
+      "carrière",
+      "travail",
+      "professionnel",
+      "finance",
+      "business"
+    ],
+    "themes": [
+      "Évolution professionnelle",
+      "Réussite matérielle",
+      "Ambitions",
+      "Réalisations",
+      "Prospérité"
+    ],
+    "prediction_template": {
+      "title": "💼 Perspectives Professionnelles",
+      "sections": [
+        "Situation professionnelle",
+        "Opportunités",
+        "Développement de carrière",
+        "Aspects financiers"
+      ],
+      "focus_points": [
+        "Orientation professionnelle",
+        "Objectifs de carrière",
+        "Gestion financière",
+        "Développement des compétences"
+      ]
+    }
+  },
+  "health": {
+    "title": "Santé et Bien-être",
+    "description": "Aspects liés à la santé physique et mentale.",
+    "keywords": [
+      "santé",
+      "bien-être",
+      "physique",
+      "équilibre",
+      "vitalité"
+    ],
+    "themes": [
+      "Santé physique",
+      "Équilibre mental",
+      "Énergie vitale",
+      "Harmonie corps-esprit"
+    ],
+    "prediction_template": {
+      "title": "💪 Perspectives de Bien-être",
+      "sections": [
+        "État de santé général",
+        "Équilibre énergétique",
+        "Recommandations",
+        "Points d'attention"
+      ],
+      "focus_points": [
+        "Vitalité",
+        "Équilibre émotionnel",
+        "Habitudes de vie",
+        "Prévention"
+      ]
+    }
+  },
+  "personal": {
+    "title": "Développement Personnel",
+    "description": "Aspects liés à l'évolution et à la croissance personnelle.",
+    "keywords": [
+      "personnel",
+      "développement",
+      "croissance",
+      "évolution"
+    ],
+    "themes": [
+      "Connaissance de soi",
+      "Réalisation personnelle",
+      "Transformation",
+      "Épanouissement"
+    ],
+    "prediction_template": {
+      "title": "🌟 Perspectives de Développement Personnel",
+      "sections": [
+        "Évolution personnelle",
+        "Défis de croissance",
+        "Potentiels à développer",
+        "Axes d'amélioration"
+      ],
+      "focus_points": [
+        "Conscience de soi",
+        "Développement des talents",
+        "Réalisation des objectifs",
+        "Équilibre de vie"
+      ]
+    }
+  },
+  "spiritual": {
+    "title": "Spiritualité et Éveil",
+    "description": "Aspects liés au développement spirituel et à l'éveil intérieur.",
+    "keywords": [
+      "spirituel",
+      "spiritualité",
+      "éveil",
+      "âme",
+      "conscience"
+    ],
+    "themes": [
+      "Éveil spirituel",
+      "Quête intérieure",
+      "Connection divine",
+      "Sagesse"
+    ],
+    "prediction_template": {
+      "title": "🕊️ Perspectives Spirituelles",
+      "sections": [
+        "Cheminement spirituel",
+        "Éveil intérieur",
+        "Guide spirituel",
+        "Développement mystique"
+      ],
+      "focus_points": [
+        "Conscience spirituelle",
+        "Pratiques méditatives",
+        "Connection à l'âme",
+        "Évolution spirituelle"
+      ]
+    }
+  }
+}

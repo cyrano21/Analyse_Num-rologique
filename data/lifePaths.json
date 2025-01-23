@@ -1,0 +1,308 @@
+{
+  "1": {
+    "title": "Le Pionnier",
+    "vibration": "Soleil",
+    "description": "Le Chemin de Vie 1 représente l'indépendance, le leadership et la création. Pionnier et innovateur, vous êtes destiné à ouvrir de nouvelles voies et diriger.",
+    "characteristics": [
+      "Leadership naturel",
+      "Esprit d'initiative",
+      "Créativité innovante",
+      "Indépendance marquée",
+      "Ambition forte",
+      "Confiance en soi"
+    ],
+    "challenges": [
+      "Tendance à l'égocentrisme",
+      "Peut paraître autoritaire",
+      "Difficulté à déléguer",
+      "Impatience face aux autres"
+    ],
+    "aspects": {
+      "love": {
+        "description": "En amour, vous recherchez un partenaire qui respecte votre indépendance tout en partageant vos ambitions.",
+        "forces": [
+          "Protecteur et loyal",
+          "Partenaire stimulant",
+          "Relation passionnée"
+        ],
+        "conseils": [
+          "Cultivez l'écoute et le partage",
+          "Équilibrez indépendance et intimité",
+          "Laissez l'autre s'exprimer"
+        ]
+      }
+    }
+  },
+  "2": {
+    "title": "Le Médiateur",
+    "vibration": "Lune",
+    "description": "Le Chemin de Vie 2 représente la coopération, la diplomatie et l'harmonie. Doté d'une grande sensibilité, vous excellez dans les relations et la médiation.",
+    "characteristics": [
+      "Diplomatie naturelle",
+      "Grande sensibilité",
+      "Sens de la coopération",
+      "Intuition développée",
+      "Capacité d'écoute",
+      "Talent pour l'harmonie"
+    ],
+    "challenges": [
+      "Hypersensibilité",
+      "Dépendance affective",
+      "Difficulté à s'affirmer",
+      "Tendance à l'indécision"
+    ],
+    "aspects": {
+      "love": {
+        "description": "En amour, vous recherchez l'harmonie et la connexion émotionnelle profonde.",
+        "forces": [
+          "Grande empathie",
+          "Dévouement sincère",
+          "Sensibilité relationnelle"
+        ],
+        "conseils": [
+          "Affirmez vos besoins",
+          "Gardez votre individualité",
+          "Équilibrez don et réception"
+        ]
+      }
+    }
+  },
+  "3": {
+    "title": "L'Expressif",
+    "vibration": "Jupiter",
+    "description": "Le Chemin de Vie 3 représente l'expression créative, la joie de vivre et la communication. Naturellement optimiste et expressif, vous inspirez les autres.",
+    "characteristics": [
+      "Créativité débordante",
+      "Don pour la communication",
+      "Joie de vivre",
+      "Charisme naturel",
+      "Expressivité artistique",
+      "Optimisme contagieux"
+    ],
+    "challenges": [
+      "Dispersion d'énergie",
+      "Superficialité possible",
+      "Manque de persévérance",
+      "Difficulté à se concentrer"
+    ],
+    "aspects": {
+      "love": {
+        "description": "En amour, vous apportez joie et créativité, recherchant une relation stimulante et épanouissante.",
+        "forces": [
+          "Romantisme créatif",
+          "Communication fluide",
+          "Enthousiasme contagieux"
+        ],
+        "conseils": [
+          "Cultivez la profondeur",
+          "Développez la constance",
+          "Écoutez aussi l'autre"
+        ]
+      }
+    }
+  },
+  "4": {
+    "title": "Le Bâtisseur",
+    "vibration": "Uranus",
+    "description": "Le Chemin de Vie 4 incarne l'ordre, la stabilité et la construction. Méthodique et travailleur, vous excellez dans l'établissement de fondations solides.",
+    "characteristics": [
+      "Sens de l'organisation",
+      "Fiabilité exceptionnelle",
+      "Pragmatisme naturel",
+      "Persévérance remarquable",
+      "Esprit méthodique",
+      "Sens des responsabilités"
+    ],
+    "challenges": [
+      "Rigidité potentielle",
+      "Résistance au changement",
+      "Tendance au surmenage",
+      "Perfectionnisme excessif"
+    ],
+    "aspects": {
+      "love": {
+        "description": "En amour, vous construisez des relations solides et durables basées sur la confiance et la loyauté.",
+        "forces": [
+          "Stabilité émotionnelle",
+          "Engagement profond",
+          "Fiabilité relationnelle"
+        ],
+        "conseils": [
+          "Cultivez la spontanéité",
+          "Acceptez l'imperfection",
+          "Exprimez vos sentiments"
+        ]
+      }
+    }
+  },
+  "5": {
+    "title": "L'Aventurier",
+    "vibration": "Mercure",
+    "description": "Le Chemin de Vie 5 représente la liberté, le changement et l'aventure. Adaptable et polyvalent, vous êtes fait pour explorer et expérimenter.",
+    "characteristics": [
+      "Adaptabilité remarquable",
+      "Soif de liberté",
+      "Curiosité insatiable",
+      "Versatilité naturelle",
+      "Charisme magnétique",
+      "Esprit d'aventure"
+    ],
+    "challenges": [
+      "Instabilité potentielle",
+      "Difficulté d'engagement",
+      "Tendance à l'excès",
+      "Dispersion d'énergie"
+    ],
+    "aspects": {
+      "love": {
+        "description": "En amour, vous recherchez une relation qui préserve votre liberté tout en offrant de l'excitation.",
+        "forces": [
+          "Spontanéité séduisante",
+          "Capacité d'adaptation",
+          "Relations passionnées"
+        ],
+        "conseils": [
+          "Cultivez la stabilité",
+          "Approfondissez vos liens",
+          "Gérez votre besoin de liberté"
+        ]
+      }
+    }
+  },
+  "6": {
+    "title": "Le Nurturer",
+    "vibration": "Vénus",
+    "description": "Le Chemin de Vie 6 représente l'harmonie, la responsabilité et l'amour. Naturellement protecteur, vous excellez dans le soin et la création de beauté.",
+    "characteristics": [
+      "Sens des responsabilités",
+      "Amour inconditionnel",
+      "Don pour l'harmonie",
+      "Créativité artistique",
+      "Esprit protecteur",
+      "Sens de la justice"
+    ],
+    "challenges": [
+      "Perfectionnisme",
+      "Tendance au sacrifice",
+      "Inquiétude excessive",
+      "Difficulté à lâcher prise"
+    ],
+    "aspects": {
+      "love": {
+        "description": "En amour, vous donnez sans compter et créez un foyer harmonieux et aimant.",
+        "forces": [
+          "Dévouement profond",
+          "Sens de la famille",
+          "Harmonie relationnelle"
+        ],
+        "conseils": [
+          "Prenez soin de vous",
+          "Posez des limites",
+          "Acceptez l'imperfection"
+        ]
+      }
+    }
+  },
+  "7": {
+    "title": "Le Sage",
+    "vibration": "Neptune",
+    "description": "Le Chemin de Vie 7 représente la quête spirituelle et l'analyse. Profondément intuitif et analytique, vous êtes fait pour la recherche et la sagesse.",
+    "characteristics": [
+      "Esprit analytique",
+      "Intuition profonde",
+      "Quête spirituelle",
+      "Intelligence vive",
+      "Perfectionisme",
+      "Sagesse naturelle"
+    ],
+    "challenges": [
+      "Isolement excessif",
+      "Perfectionnisme mental",
+      "Difficulté à s'ancrer",
+      "Scepticisme extrême"
+    ],
+    "aspects": {
+      "love": {
+        "description": "En amour, vous recherchez une connexion profonde et spirituelle avec votre partenaire.",
+        "forces": [
+          "Profondeur émotionnelle",
+          "Fidélité absolue",
+          "Compréhension intuitive"
+        ],
+        "conseils": [
+          "Ouvrez-vous aux autres",
+          "Équilibrez mental et cœur",
+          "Acceptez l'imperfection"
+        ]
+      }
+    }
+  },
+  "8": {
+    "title": "Le Manifesteur",
+    "vibration": "Saturne",
+    "description": "Le Chemin de Vie 8 représente le pouvoir, l'abondance et la maîtrise. Né leader, vous excellez dans la manifestation matérielle et le succès.",
+    "characteristics": [
+      "Leadership naturel",
+      "Sens des affaires",
+      "Force intérieure",
+      "Vision stratégique",
+      "Ambition puissante",
+      "Autorité naturelle"
+    ],
+    "challenges": [
+      "Abus de pouvoir",
+      "Matérialisme excessif",
+      "Autoritarisme",
+      "Workaholic"
+    ],
+    "aspects": {
+      "love": {
+        "description": "En amour, vous recherchez un partenaire qui partage vos ambitions et respecte votre autorité.",
+        "forces": [
+          "Protection matérielle",
+          "Engagement solide",
+          "Générosité abondante"
+        ],
+        "conseils": [
+          "Équilibrez pouvoir et amour",
+          "Montrez votre vulnérabilité",
+          "Partagez le contrôle"
+        ]
+      }
+    }
+  },
+  "9": {
+    "title": "L'Humanitaire",
+    "vibration": "Mars",
+    "description": "Le Chemin de Vie 9 représente l'humanitaire et l'accomplissement universel. Altruiste et sage, vous êtes destiné à servir l'humanité.",
+    "characteristics": [
+      "Compassion universelle",
+      "Sagesse innée",
+      "Don de soi",
+      "Vision globale",
+      "Créativité artistique",
+      "Charisme magnétique"
+    ],
+    "challenges": [
+      "Détachement excessif",
+      "Martyrisme",
+      "Difficulté à recevoir",
+      "Idéalisme extrême"
+    ],
+    "aspects": {
+      "love": {
+        "description": "En amour, vous donnez sans compter et cherchez une relation qui transcende l'ordinaire.",
+        "forces": [
+          "Amour inconditionnel",
+          "Compréhension profonde",
+          "Inspiration spirituelle"
+        ],
+        "conseils": [
+          "Acceptez de recevoir",
+          "Posez des limites saines",
+          "Équilibrez universel et personnel"
+        ]
+      }
+    }
+  }
+}

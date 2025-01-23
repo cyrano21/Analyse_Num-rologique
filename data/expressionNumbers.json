@@ -1,0 +1,263 @@
+{
+  "1": {
+    "title": "Le Leader",
+    "influence": "Soleil",
+    "description": "Votre nombre d'Expression 1 révèle un leader né avec un fort potentiel d'innovation et de direction.",
+    "personality": {
+      "strengths": [
+        "Leadership naturel",
+        "Esprit d'initiative",
+        "Originalité créative",
+        "Force de caractère",
+        "Indépendance d'esprit"
+      ],
+      "challenges": [
+        "Tendance à la domination",
+        "Difficulté à suivre",
+        "Individualisme excessif"
+      ]
+    },
+    "destiny": {
+      "career_paths": [
+        "Entrepreneur",
+        "Directeur",
+        "Innovateur",
+        "Leader d'opinion",
+        "Consultant indépendant"
+      ],
+      "life_mission": "Ouvrir de nouvelles voies et inspirer les autres à travers votre leadership innovant."
+    }
+  },
+  "2": {
+    "title": "Le Médiateur",
+    "influence": "Lune",
+    "description": "Votre nombre d'Expression 2 indique un talent naturel pour la diplomatie et les relations harmonieuses.",
+    "personality": {
+      "strengths": [
+        "Diplomatie innée",
+        "Sensibilité émotionnelle",
+        "Capacité d'écoute",
+        "Talent pour la médiation",
+        "Intuition développée"
+      ],
+      "challenges": [
+        "Hypersensibilité",
+        "Manque d'affirmation",
+        "Indécision occasionnelle"
+      ]
+    },
+    "destiny": {
+      "career_paths": [
+        "Médiateur",
+        "Conseiller",
+        "Diplomate",
+        "Thérapeute",
+        "Travailleur social"
+      ],
+      "life_mission": "Créer l'harmonie et faciliter la compréhension entre les personnes."
+    }
+  },
+  "3": {
+    "title": "Le Communicateur",
+    "influence": "Jupiter",
+    "description": "Votre nombre d'Expression 3 révèle un talent exceptionnel pour l'expression créative et la communication.",
+    "personality": {
+      "strengths": [
+        "Créativité débordante",
+        "Talent d'expression",
+        "Joie de vivre",
+        "Charisme naturel",
+        "Don artistique"
+      ],
+      "challenges": [
+        "Éparpillement",
+        "Superficialité possible",
+        "Difficulté à terminer"
+      ]
+    },
+    "destiny": {
+      "career_paths": [
+        "Artiste",
+        "Écrivain",
+        "Orateur",
+        "Entertaineur",
+        "Créatif"
+      ],
+      "life_mission": "Inspirer et élever les autres à travers l'expression créative et artistique."
+    }
+  },
+  "4": {
+    "title": "Le Constructeur",
+    "influence": "Uranus",
+    "description": "Votre nombre d'Expression 4 indique un talent naturel pour l'organisation et la construction de bases solides.",
+    "personality": {
+      "strengths": [
+        "Organisation méthodique",
+        "Fiabilité à toute épreuve",
+        "Sens pratique",
+        "Persévérance",
+        "Honnêteté"
+      ],
+      "challenges": [
+        "Rigidité",
+        "Perfectionnisme",
+        "Résistance au changement"
+      ]
+    },
+    "destiny": {
+      "career_paths": [
+        "Gestionnaire",
+        "Architecte",
+        "Analyste",
+        "Comptable",
+        "Ingénieur"
+      ],
+      "life_mission": "Construire des fondations durables et établir des structures fiables."
+    }
+  },
+  "5": {
+    "title": "L'Aventurier",
+    "influence": "Mercure",
+    "description": "Votre nombre d'Expression 5 révèle un esprit libre avec un talent naturel pour l'adaptation et le changement.",
+    "personality": {
+      "strengths": [
+        "Adaptabilité",
+        "Polyvalence",
+        "Curiosité vive",
+        "Charisme magnétique",
+        "Esprit progressiste"
+      ],
+      "challenges": [
+        "Instabilité",
+        "Impatience",
+        "Difficulté d'engagement"
+      ]
+    },
+    "destiny": {
+      "career_paths": [
+        "Voyageur",
+        "Journaliste",
+        "Marketing",
+        "Commercial",
+        "Guide"
+      ],
+      "life_mission": "Explorer et partager de nouvelles expériences, inspirer le changement positif."
+    }
+  },
+  "6": {
+    "title": "L'Harmonisateur",
+    "influence": "Vénus",
+    "description": "Votre nombre d'Expression 6 indique un talent naturel pour créer l'harmonie et prendre soin des autres.",
+    "personality": {
+      "strengths": [
+        "Sens des responsabilités",
+        "Créativité artistique",
+        "Compassion naturelle",
+        "Don pour l'harmonie",
+        "Sens de la justice"
+      ],
+      "challenges": [
+        "Perfectionnisme",
+        "Sacrifice de soi",
+        "Inquiétude excessive"
+      ]
+    },
+    "destiny": {
+      "career_paths": [
+        "Conseiller",
+        "Artiste",
+        "Thérapeute",
+        "Enseignant",
+        "Médiateur"
+      ],
+      "life_mission": "Créer la beauté et l'harmonie, protéger et guider les autres."
+    }
+  },
+  "7": {
+    "title": "Le Chercheur",
+    "influence": "Neptune",
+    "description": "Votre nombre d'Expression 7 révèle un esprit analytique profond avec une forte dimension spirituelle.",
+    "personality": {
+      "strengths": [
+        "Intelligence analytique",
+        "Perspicacité",
+        "Spiritualité profonde",
+        "Recherche de vérité",
+        "Sagesse innée"
+      ],
+      "challenges": [
+        "Isolement",
+        "Perfectionnisme mental",
+        "Détachement émotionnel"
+      ]
+    },
+    "destiny": {
+      "career_paths": [
+        "Chercheur",
+        "Philosophe",
+        "Scientifique",
+        "Analyste",
+        "Enseignant spirituel"
+      ],
+      "life_mission": "Découvrir et partager la sagesse profonde et les vérités universelles."
+    }
+  },
+  "8": {
+    "title": "Le Manifesteur",
+    "influence": "Saturne",
+    "description": "Votre nombre d'Expression 8 révèle un talent exceptionnel pour la manifestation matérielle et le leadership.",
+    "personality": {
+      "strengths": [
+        "Vision d'entreprise",
+        "Leadership naturel",
+        "Force d'exécution",
+        "Sens de l'organisation",
+        "Ambition puissante"
+      ],
+      "challenges": [
+        "Matérialisme",
+        "Autoritarisme",
+        "Obsession du contrôle"
+      ]
+    },
+    "destiny": {
+      "career_paths": [
+        "Chef d'entreprise",
+        "Cadre dirigeant",
+        "Financier",
+        "Gestionnaire",
+        "Entrepreneur"
+      ],
+      "life_mission": "Créer l'abondance et utiliser le pouvoir pour le bien commun."
+    }
+  },
+  "9": {
+    "title": "L'Humaniste",
+    "influence": "Mars",
+    "description": "Votre nombre d'Expression 9 indique une capacité naturelle à servir l'humanité avec sagesse et compassion.",
+    "personality": {
+      "strengths": [
+        "Compassion universelle",
+        "Créativité artistique",
+        "Sagesse innée",
+        "Leadership inspirant",
+        "Vision globale"
+      ],
+      "challenges": [
+        "Détachement",
+        "Idéalisme excessif",
+        "Difficulté à recevoir"
+      ]
+    },
+    "destiny": {
+      "career_paths": [
+        "Humanitaire",
+        "Artiste",
+        "Enseignant",
+        "Guide spirituel",
+        "Philanthrope"
+      ],
+      "life_mission": "Servir l'humanité et inspirer l'évolution collective."
+    }
+  }
+}

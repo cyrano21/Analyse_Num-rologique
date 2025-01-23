@@ -1,0 +1,479 @@
+{
+  "probabilites": {
+    "modificateurs": {
+      "positifs": [
+        "très",
+        "particulièrement",
+        "exceptionnellement",
+        "remarquablement",
+        "profondément"
+      ],
+      "neutres": [
+        "assez",
+        "plutôt",
+        "relativement",
+        "généralement",
+        "habituellement"
+      ],
+      "negatifs": [
+        "peu",
+        "faiblement",
+        "rarement",
+        "difficilement",
+        "occasionnellement"
+      ]
+    }
+  },
+  "nombres": {
+    "1": {
+      "name": "Indépendance & Expression de Soi",
+      "shortDescription": "Le 1 est le premier nombre physique. C'est le symbole de l'expression divine et la clé de l'expression verbale du soi.",
+      "detailedPredictions": [
+        "Vous avez un fort besoin d'indépendance et d'autonomie dans votre expression personnelle",
+        "Votre désir d'être unique et différent vous pousse à explorer des chemins novateurs",
+        "Vous avez une grande capacité de leadership quand vous êtes en harmonie avec vous-même",
+        "La confiance en soi et l'affirmation de votre individualité sont des aspects clés de votre développement",
+        "Votre créativité s'exprime le mieux quand vous pouvez travailler de façon indépendante",
+        "Vous êtes destiné à inspirer les autres par votre exemple",
+        "Votre détermination et votre volonté vous permettent de surmonter les obstacles"
+      ],
+      "challenges": [
+        "Évitez de devenir trop égocentrique ou dominateur",
+        "Apprenez à collaborer et à faire des compromis quand nécessaire",
+        "Ne laissez pas votre besoin d'indépendance vous isoler des autres",
+        "Cultivez la patience et l'écoute dans vos relations",
+        "Gérez votre tendance à vouloir tout contrôler"
+      ],
+      "recommendations": [
+        "Prenez des initiatives et osez exprimer vos idées novatrices",
+        "Développez votre leadership de façon constructive et bienveillante",
+        "Accordez-vous des moments de solitude pour recharger votre énergie créative",
+        "Méditez régulièrement pour rester centré et équilibré",
+        "Cultivez des relations enrichissantes tout en préservant votre autonomie"
+      ]
+    },
+    "2": {
+      "name": "Intuition & Sensibilité",
+      "shortDescription": "Le 2 est le premier nombre spirituel. Il représente la dualité humaine et symbolise la porte vers nos sensibilités.",
+      "detailedPredictions": [
+        "Votre grande sensibilité et votre intuition sont vos plus grands atouts",
+        "Vous avez un don naturel pour la diplomatie et la médiation",
+        "Les relations harmonieuses sont essentielles à votre équilibre",
+        "Votre nature réceptive vous permet de bien comprendre les autres",
+        "Vous excellez dans les situations qui requièrent tact et finesse",
+        "Votre empathie vous permet de créer des liens profonds avec les autres",
+        "Vous avez une capacité unique à apaiser les conflits"
+      ],
+      "challenges": [
+        "Ne laissez pas votre hypersensibilité vous submerger",
+        "Évitez de trop vous préoccuper de l'opinion des autres",
+        "Apprenez à poser vos limites tout en restant diplomatique",
+        "Gérez votre tendance à l'indécision",
+        "Ne vous laissez pas envahir par les émotions négatives"
+      ],
+      "recommendations": [
+        "Faites confiance à votre intuition, elle est votre meilleur guide",
+        "Pratiquez la méditation pour développer votre paix intérieure",
+        "Entourez-vous de personnes positives et bienveillantes",
+        "Exprimez vos émotions de façon constructive",
+        "Prenez soin de votre équilibre émotionnel au quotidien"
+      ]
+    },
+    "3": {
+      "name": "Expression & Créativité",
+      "shortDescription": "Le 3 est le premier nombre mental. Il ouvre la porte à la compréhension consciente et à la mémoire.",
+      "detailedPredictions": [
+        "Votre esprit créatif et votre joie de vivre sont contagieux",
+        "Vous avez un don naturel pour la communication et l'expression",
+        "Les arts et la créativité sont des domaines où vous excellez",
+        "Votre optimisme et votre enthousiasme inspirent les autres",
+        "Vous avez une grande capacité à apprendre et à vous adapter",
+        "Votre imagination débordante vous permet de voir le monde sous un angle unique",
+        "Vous avez une capacité innée à motiver et à encourager les autres"
+      ],
+      "challenges": [
+        "Évitez de disperser votre énergie dans trop de projets",
+        "Apprenez à canaliser votre créativité de façon constructive",
+        "Ne laissez pas votre côté critique prendre le dessus",
+        "Gérez votre tendance à la superficialité",
+        "Maintenez votre motivation sur le long terme"
+      ],
+      "recommendations": [
+        "Exprimez-vous à travers les arts et la créativité",
+        "Développez votre sens de l'humour de façon positive",
+        "Structurez vos projets pour les mener à bien",
+        "Cultivez des relations stimulantes intellectuellement",
+        "Équilibrez expression créative et réalisation concrète"
+      ]
+    },
+    "4": {
+      "name": "Structure & Stabilité",
+      "shortDescription": "Le 4 est au centre du plan physique, c'est la clé de l'ordre, de la praticité et de l'organisation.",
+      "detailedPredictions": [
+        "Vous avez un talent naturel pour l'organisation et la planification",
+        "La stabilité et la sécurité sont essentielles à votre équilibre",
+        "Votre sens pratique vous permet de concrétiser vos projets",
+        "Vous êtes fiable et on peut compter sur vous",
+        "Vous excellez dans la gestion des détails et la mise en place de structures",
+        "Votre persévérance et votre détermination vous mènent au succès",
+        "Vous avez une capacité unique à créer un environnement ordonné et harmonieux"
+      ],
+      "challenges": [
+        "Évitez de devenir trop rigide ou inflexible",
+        "Ne laissez pas le travail prendre toute la place",
+        "Apprenez à vous adapter aux changements",
+        "Gérez votre tendance au perfectionnisme",
+        "Développez votre côté créatif et spontané"
+      ],
+      "recommendations": [
+        "Créez des routines qui soutiennent votre bien-être",
+        "Équilibrez travail et détente",
+        "Ouvrez-vous à de nouvelles façons de faire",
+        "Prenez soin de votre santé physique",
+        "Cultivez la patience et la persévérance"
+      ]
+    },
+    "5": {
+      "name": "Liberté & Changement",
+      "shortDescription": "Le 5 est au centre du plan de l'âme et représente l'amour et la liberté d'expression.",
+      "detailedPredictions": [
+        "Vous avez un fort besoin de liberté et d'aventure",
+        "Le changement et la variété sont essentiels à votre bonheur",
+        "Votre adaptabilité est votre plus grand atout",
+        "Vous avez un charisme naturel qui attire les autres",
+        "Les voyages et les nouvelles expériences vous enrichissent",
+        "Votre esprit libre et indépendant vous permet de vivre pleinement",
+        "Vous avez une capacité unique à embrasser le changement et à en tirer profit"
+      ],
+      "challenges": [
+        "Évitez de fuir les responsabilités",
+        "Apprenez à vous engager sur le long terme",
+        "Ne confondez pas liberté et impulsivité",
+        "Gérez votre besoin constant de changement",
+        "Trouvez un équilibre entre stabilité et aventure"
+      ],
+      "recommendations": [
+        "Voyagez et explorez de nouveaux horizons",
+        "Développez votre polyvalence",
+        "Cultivez des relations qui respectent votre besoin de liberté",
+        "Restez flexible tout en maintenant vos engagements",
+        "Utilisez votre adaptabilité de façon constructive"
+      ]
+    },
+    "6": {
+      "name": "Harmonie & Responsabilité",
+      "shortDescription": "Le 6 est au centre du plan mental, représentant la créativité et l'intégration des deux lobes du cerveau.",
+      "detailedPredictions": [
+        "Vous avez un grand sens des responsabilités et du devoir",
+        "L'harmonie dans les relations est primordiale pour vous",
+        "Votre créativité s'exprime particulièrement dans le domaine domestique",
+        "Vous avez un don naturel pour prendre soin des autres",
+        "L'amour et la famille sont au centre de votre vie",
+        "Votre dévouement et votre loyauté sont des qualités admirables",
+        "Vous avez une capacité unique à créer un environnement harmonieux et aimant"
+      ],
+      "challenges": [
+        "Évitez de devenir trop perfectionniste",
+        "Ne vous sacrifiez pas trop pour les autres",
+        "Apprenez à déléguer et à faire confiance",
+        "Gérez votre tendance à trop vous inquiéter",
+        "Trouvez un équilibre entre donner et recevoir"
+      ],
+      "recommendations": [
+        "Exprimez votre créativité dans l'harmonie",
+        "Prenez soin de vous autant que des autres",
+        "Développez des relations équilibrées",
+        "Créez un environnement harmonieux",
+        "Équilibrez vie personnelle et professionnelle"
+      ]
+    },
+    "7": {
+      "name": "Sagesse & Spiritualité",
+      "shortDescription": "Le 7 est le symbole du temple, du corps humain et de ses sept chakras.",
+      "detailedPredictions": [
+        "Vous avez une profonde quête de connaissance et de vérité",
+        "La spiritualité et l'introspection sont essentielles pour vous",
+        "Vous excellez dans l'analyse et la recherche",
+        "Votre intuition est particulièrement développée",
+        "Vous avez besoin de solitude pour vous ressourcer",
+        "Votre sagesse intérieure vous guide dans vos décisions",
+        "Vous avez une capacité unique à comprendre les mystères de la vie"
+      ],
+      "challenges": [
+        "Évitez de trop vous isoler des autres",
+        "Ne laissez pas le perfectionnisme vous paralyser",
+        "Apprenez à faire confiance et à vous ouvrir",
+        "Gérez votre tendance au scepticisme",
+        "Équilibrez analyse et action"
+      ],
+      "recommendations": [
+        "Accordez-vous des moments de solitude et de méditation",
+        "Développez votre spiritualité à travers l'étude et la réflexion",
+        "Partagez vos connaissances avec les autres",
+        "Cultivez votre sagesse intérieure",
+        "Trouvez un équilibre entre intellect et intuition"
+      ]
+    },
+    "8": {
+      "name": "Pouvoir & Abondance",
+      "shortDescription": "Le 8 est le nombre le plus actif spirituellement, situé à l'extrémité active du plan de l'âme.",
+      "detailedPredictions": [
+        "Vous avez un grand potentiel pour la réussite matérielle",
+        "Votre sens des affaires est naturellement développé",
+        "Vous avez une forte capacité à diriger et à organiser",
+        "L'indépendance financière est importante pour vous",
+        "Vous avez un don pour transformer les opportunités en succès",
+        "Votre ambition et votre détermination vous mènent au sommet",
+        "Vous avez une capacité unique à créer de la richesse et de l'abondance"
+      ],
+      "challenges": [
+        "Évitez de devenir trop matérialiste",
+        "Ne laissez pas le pouvoir vous corrompre",
+        "Apprenez à équilibrer ambition et compassion",
+        "Gérez votre tendance à la domination",
+        "Développez votre intelligence émotionnelle"
+      ],
+      "recommendations": [
+        "Utilisez votre pouvoir pour le bien commun",
+        "Développez votre sagesse financière",
+        "Cultivez la générosité et le partage",
+        "Maintenez l'équilibre entre matériel et spirituel",
+        "Exercez votre leadership avec bienveillance"
+      ]
+    },
+    "9": {
+      "name": "Humanité & Accomplissement",
+      "shortDescription": "Le 9 est le nombre trois fois triple à l'extrémité du plan mental, combinant ambition, responsabilité et idéalisme.",
+      "detailedPredictions": [
+        "Vous avez une profonde compassion pour l'humanité",
+        "Votre sens des responsabilités est très développé",
+        "Vous avez un fort idéalisme et des aspirations élevées",
+        "Votre influence sur les autres est significative",
+        "Vous êtes destiné à accomplir de grandes choses",
+        "Votre altruisme et votre dévouement sont des qualités admirables",
+        "Vous avez une capacité unique à inspirer et à motiver les autres"
+      ],
+      "challenges": [
+        "Évitez le perfectionnisme excessif",
+        "Ne vous perdez pas dans l'idéalisme",
+        "Apprenez à lâcher prise quand nécessaire",
+        "Gérez votre tendance à porter le poids du monde",
+        "Acceptez que tout le monde ne partage pas vos idéaux"
+      ],
+      "recommendations": [
+        "Mettez votre idéalisme au service des autres",
+        "Développez votre sens de l'universalité",
+        "Cultivez le détachement sage",
+        "Équilibrez service et accomplissement personnel",
+        "Inspirez les autres par votre exemple"
+      ]
+    },
+    "10": {
+      "name": "Innovation & Potentiel",
+      "shortDescription": "Le 10 combine l'énergie du nouveau départ (1) avec l'infini potentiel spirituel (0).",
+      "detailedPredictions": [
+        "Vous avez un grand potentiel de renouveau et d'innovation",
+        "Votre capacité d'adaptation est remarquable",
+        "Vous êtes naturellement doué pour initier de nouveaux projets",
+        "Votre charisme attire les autres vers vous",
+        "Vous avez la capacité de transformer les obstacles en opportunités",
+        "Votre esprit novateur vous permet de voir les choses sous un angle unique",
+        "Vous avez une capacité unique à inspirer et à motiver les autres"
+      ],
+      "challenges": [
+        "Évitez la dispersion de votre énergie",
+        "Ne vous laissez pas submerger par les possibilités",
+        "Apprenez à finaliser ce que vous commencez",
+        "Gérez votre tendance à l'instabilité",
+        "Développez votre persévérance"
+      ],
+      "recommendations": [
+        "Utilisez votre créativité pour innover",
+        "Développez votre potentiel spirituel",
+        "Cultivez votre originalité",
+        "Équilibrez action et réflexion",
+        "Cultivez des relations avec des âmes éveillées"
+      ]
+    },
+    "11": {
+      "name": "Illumination & Idéalisme",
+      "shortDescription": "Le 11 est un maître nombre qui symbolise l'illumination spirituelle et l'inspiration divine.",
+      "detailedPredictions": [
+        "Vous êtes porteur d'une grande lumière et d'une profonde sagesse intérieure",
+        "Votre intuition et votre sensibilité sont extrêmement développés",
+        "Vous avez un don naturel pour inspirer et guider les autres",
+        "Votre vision idéaliste peut transformer le monde autour de vous",
+        "Vous êtes destiné à accomplir des choses significatives sur le plan spirituel",
+        "Votre sagesse intérieure vous guide dans vos décisions",
+        "Vous avez une capacité unique à comprendre les mystères de la vie"
+      ],
+      "challenges": [
+        "Évitez de vous laisser submerger par vos émotions",
+        "Apprenez à équilibrer votre vie spirituelle et matérielle",
+        "Ne laissez pas vos idéaux vous éloigner de la réalité",
+        "Gérez votre tendance à l'anxiété ou au doute",
+        "Cultivez la patience dans votre quête de perfection"
+      ],
+      "recommendations": [
+        "Méditez régulièrement pour renforcer votre connexion spirituelle",
+        "Partagez votre sagesse et inspirez les autres avec bienveillance",
+        "Équilibrez votre vie personnelle et vos aspirations élevées",
+        "Transformez vos idéaux en actions concrètes",
+        "Entourez-vous de personnes qui soutiennent votre vision"
+      ]
+    }
+  },
+  "love": {
+    "name": "Prédictions Détaillées",
+    "shortDescription": "Votre chemin de vie 4 offre des perspectives uniques et prometteuses. Votre signe Bélier et votre nombre d'expression 8 renforcent votre potentiel unique et vos capacités personnelles.",
+    "detailedPredictions": [
+      "Votre chemin de vie 4 offre des perspectives uniques et prometteuses.",
+      "Votre signe Bélier et votre nombre d'expression 8 renforcent votre potentiel unique et vos capacités personnelles.",
+      "Vous avez une grande capacité à attirer l'amour et à maintenir des relations harmonieuses.",
+      "Votre détermination et votre volonté vous permettent de surmonter les défis relationnels.",
+      "Vous êtes destiné à inspirer et à motiver votre partenaire par votre exemple."
+    ]
+  },
+  "career": {
+    "name": "Prédictions Détaillées",
+    "shortDescription": "Votre chemin de vie 4 offre des perspectives uniques et prometteuses. Votre signe Bélier et votre nombre d'expression 8 renforcent votre potentiel unique et vos capacités personnelles.",
+    "detailedPredictions": [
+      "Votre chemin de vie 4 offre des perspectives uniques et prometteuses.",
+      "Votre signe Bélier et votre nombre d'expression 8 renforcent votre potentiel unique et vos capacités personnelles.",
+      "Vous avez une grande capacité à réussir dans votre carrière grâce à votre détermination.",
+      "Votre sens de l'organisation et votre persévérance vous permettent de surmonter les obstacles professionnels.",
+      "Vous êtes destiné à atteindre des sommets dans votre domaine grâce à votre travail acharné."
+    ]
+  },
+  "health": {
+    "name": "Prédictions Détaillées",
+    "shortDescription": "Votre chemin de vie 4 offre des perspectives uniques et prometteuses. Votre signe Bélier et votre nombre d'expression 8 renforcent votre potentiel unique et vos capacités personnelles.",
+    "detailedPredictions": [
+      "Votre chemin de vie 4 offre des perspectives uniques et prometteuses.",
+      "Votre signe Bélier et votre nombre d'expression 8 renforcent votre potentiel unique et vos capacités personnelles.",
+      "Vous avez une grande capacité à maintenir une bonne santé grâce à votre discipline.",
+      "Votre détermination et votre volonté vous permettent de surmonter les défis de santé.",
+      "Vous êtes destiné à inspirer les autres par votre exemple de vie saine."
+    ]
+  },
+  "numerologyDetails": {
+    "expressionNumbers": {
+      "1": {
+        "name": "Leadership et Initiative",
+        "description": "Votre nombre d'expression 1 révèle un potentiel de leadership naturel et une forte capacité d'initiative.",
+        "strengths": [
+          "Indépendance",
+          "Originalité",
+          "Capacité de diriger",
+          "Esprit d'entreprise"
+        ],
+        "challenges": [
+          "Risque d'égocentrisme",
+          "Difficulté à déléguer",
+          "Impatience"
+        ],
+        "personalityTraits": [
+          "Innovant",
+          "Ambitieux",
+          "Déterminé"
+        ]
+      },
+      "2": {
+        "name": "Diplomatie et Sensibilité",
+        "description": "Votre nombre d'expression 2 indique une grande capacité de coopération et de diplomatie.",
+        "strengths": [
+          "Empathie",
+          "Médiation",
+          "Travail d'équipe",
+          "Intuition relationnelle"
+        ],
+        "challenges": [
+          "Tendance à l'effacement",
+          "Difficulté à affirmer ses besoins",
+          "Sensibilité excessive"
+        ],
+        "personalityTraits": [
+          "Harmonieux",
+          "Patient",
+          "Attentif"
+        ]
+      }
+    },
+    "lifePathDetails": {
+      "1": {
+        "name": "Voie du Leader",
+        "description": "Votre chemin de vie 1 vous destine à être un pionnier et un initiateur.",
+        "keyLessons": [
+          "Développer l'indépendance",
+          "Apprendre à diriger avec bienveillance",
+          "Cultiver la confiance en soi"
+        ],
+        "potentialCareers": [
+          "Entrepreneur",
+          "Consultant",
+          "Innovateur"
+        ]
+      },
+      "2": {
+        "name": "Voie de la Coopération",
+        "description": "Votre chemin de vie 2 vous guide vers l'harmonie et la médiation.",
+        "keyLessons": [
+          "Développer la diplomatie",
+          "Apprendre à s'affirmer",
+          "Cultiver des relations équilibrées"
+        ],
+        "potentialCareers": [
+          "Médiateur",
+          "Conseiller",
+          "Travailleur social"
+        ]
+      }
+    },
+    "personalCyclesInterpretation": {
+      "formativeCycle": {
+        "description": "Période de formation et de développement des talents innés",
+        "keyAreas": [
+          "Éducation",
+          "Découverte de soi",
+          "Développement des compétences"
+        ]
+      },
+      "productiveCycle": {
+        "description": "Période de concrétisation et de réalisation des projets",
+        "keyAreas": [
+          "Carrière",
+          "Développement personnel",
+          "Accomplissement des objectifs"
+        ]
+      },
+      "harvestCycle": {
+        "description": "Période de réflexion et de récolte des expériences de vie",
+        "keyAreas": [
+          "Sagesse",
+          "Transmission",
+          "Bilan personnel"
+        ]
+      }
+    },
+    "personalYearCycles": {
+      "1": {
+        "name": "Année de Nouveaux Départs",
+        "description": "Période propice aux initiatives et aux nouveaux projets",
+        "keyActions": [
+          "Lancer de nouveaux projets",
+          "Prendre des initiatives",
+          "Se concentrer sur les objectifs personnels"
+        ]
+      },
+      "2": {
+        "name": "Année de Coopération",
+        "description": "Période favorisant les relations et la collaboration",
+        "keyActions": [
+          "Développer des partenariats",
+          "Cultiver l'harmonie",
+          "Être à l'écoute des autres"
+        ]
+      }
+    }
+  }
+}

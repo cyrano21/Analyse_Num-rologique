@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Bélier",
+        "dates": "21 mars - 19 avril",
+        "element": "Feu",
+        "quality": "Cardinal",
+        "rulingPlanet": "Mars",
+        "traits": ["Courageux", "Déterminé", "Confiant"],
+        "predictionsAspects": {
+            "love": "Passionné et direct dans ses relations, le Bélier exprime ses sentiments avec intensité. En amour, il prend souvent l'initiative et recherche une connexion dynamique et stimulante.",
+            "career": "Naturellement leader, le Bélier excelle dans les rôles qui demandent de l'initiative et du courage. Sa détermination le pousse vers le succès professionnel.",
+            "health": "Le Bélier doit canaliser son énergie débordante à travers l'exercice physique régulier tout en évitant le surmenage.",
+            "personal": "Son développement personnel passe par l'apprentissage de la patience et de la considération des besoins des autres.",
+            "spiritual": "Sa quête spirituelle est marquée par un besoin d'action et de découverte personnelle active."
+        }
+    },
+    {
+        "name": "Taureau",
+        "dates": "20 avril - 20 mai",
+        "element": "Terre",
+        "quality": "Fixe",
+        "rulingPlanet": "Vénus",
+        "traits": ["Fiable", "Pratique", "Patient"],
+        "predictionsAspects": {
+            "love": "Le Taureau recherche la stabilité et la sécurité en amour. Fidèle et dévoué, il construit des relations durables basées sur la confiance.",
+            "career": "Excellente gestion des ressources et persévérance caractérisent sa vie professionnelle. Le succès vient de sa détermination.",
+            "health": "Importance du bien-être physique et du confort, avec une attention particulière à l'alimentation et au repos.",
+            "personal": "Son évolution personnelle passe par l'acceptation du changement et le lâcher-prise.",
+            "spiritual": "Sa connexion spirituelle se développe à travers la nature et les expériences sensorielles."
+        }
+    },
+    {
+        "name": "Gémeaux",
+        "dates": "21 mai - 20 juin",
+        "element": "Air",
+        "quality": "Mutable",
+        "rulingPlanet": "Mercure",
+        "traits": ["Adaptable", "Curieux", "Communicatif"],
+        "predictionsAspects": {
+            "love": "Les Gémeaux apportent diversité et stimulation intellectuelle en amour. Ils cherchent un partenaire qui peut les suivre dans leurs conversations animées.",
+            "career": "Polyvalence et capacité d'adaptation sont leurs atouts majeurs. Excellent dans la communication et les projets variés.",
+            "health": "Besoin d'activités variées pour maintenir l'équilibre mental et physique.",
+            "personal": "Le défi est de développer la constance et la profondeur émotionnelle.",
+            "spiritual": "Leur quête spirituelle passe par l'apprentissage et l'échange d'idées."
+        }
+    },
+    {
+        "name": "Cancer",
+        "dates": "21 juin - 22 juillet",
+        "element": "Eau",
+        "quality": "Cardinal",
+        "rulingPlanet": "Lune",
+        "traits": ["Émotionnel", "Protecteur", "Intuitif"],
+        "predictionsAspects": {
+            "love": "Le Cancer est profondément émotionnel et nurturing en amour. Il crée un foyer chaleureux et protecteur pour ses proches.",
+            "career": "Excellentes capacités intuitives dans le travail, avec un talent pour prendre soin des autres et gérer les émotions.",
+            "health": "L'équilibre émotionnel est clé pour sa santé globale.",
+            "personal": "Son développement passe par l'affirmation de soi et la gestion des émotions.",
+            "spiritual": "Fort lien avec l'intuition et les cycles naturels."
+        }
+    },
+    {
+        "name": "Lion",
+        "dates": "23 juillet - 22 août",
+        "element": "Feu",
+        "quality": "Fixe",
+        "rulingPlanet": "Soleil",
+        "traits": ["Charismatique", "Créatif", "Généreux"],
+        "predictionsAspects": {
+            "love": "Le Lion aime grandement et généreusement. Il recherche une relation où il peut briller et être admiré.",
+            "career": "Leader naturel, il excelle dans les rôles de direction et les positions de prestige.",
+            "health": "Vitalité naturelle forte, importance de l'activité physique régulière.",
+            "personal": "Apprentissage de l'humilité et de l'écoute des autres.",
+            "spiritual": "Développement spirituel à travers l'expression créative et le rayonnement personnel."
+        }
+    },
+    {
+        "name": "Vierge",
+        "dates": "23 août - 22 septembre",
+        "element": "Terre",
+        "quality": "Mutable",
+        "rulingPlanet": "Mercure",
+        "traits": ["Analytique", "Pratique", "Diligent"],
+        "predictionsAspects": {
+            "love": "La Vierge approche l'amour avec sincérité et dévouement. Elle cherche une relation basée sur le service mutuel et la croissance.",
+            "career": "Excellence dans l'analyse et l'organisation. Perfectionniste dans son travail.",
+            "health": "Attention particulière à la santé et au bien-être, approche holistique.",
+            "personal": "Développement de l'acceptation de soi et diminution de l'autocritique.",
+            "spiritual": "Recherche spirituelle à travers le service aux autres et l'amélioration de soi."
+        }
+    },
+    {
+        "name": "Balance",
+        "dates": "23 septembre - 22 octobre",
+        "element": "Air",
+        "quality": "Cardinal",
+        "rulingPlanet": "Vénus",
+        "traits": ["Diplomate", "Équilibré", "Sociable"],
+        "predictionsAspects": {
+            "love": "La Balance cherche l'harmonie et l'équilibre en amour. Relations basées sur le partenariat et la réciprocité.",
+            "career": "Excellentes capacités de négociation et de médiation. Création d'harmonie au travail.",
+            "health": "L'équilibre entre activité et repos est essentiel.",
+            "personal": "Développement de la prise de décision indépendante.",
+            "spiritual": "Quête d'harmonie intérieure et de justice."
+        }
+    },
+    {
+        "name": "Scorpion",
+        "dates": "23 octobre - 21 novembre",
+        "element": "Eau",
+        "quality": "Fixe",
+        "rulingPlanet": "Pluton",
+        "traits": ["Passionné", "Déterminé", "Mystérieux"],
+        "predictionsAspects": {
+            "love": "Le Scorpion vit l'amour intensément et profondément. Recherche une connexion émotionnelle et spirituelle forte.",
+            "career": "Excellent dans l'investigation et la résolution de problèmes complexes.",
+            "health": "Importance de la transformation et de la régénération.",
+            "personal": "Apprentissage du lâcher-prise et de la confiance.",
+            "spiritual": "Exploration des mystères de la vie et de la transformation personnelle."
+        }
+    },
+    {
+        "name": "Sagittaire",
+        "dates": "22 novembre - 21 décembre",
+        "element": "Feu",
+        "quality": "Mutable",
+        "rulingPlanet": "Jupiter",
+        "traits": ["Optimiste", "Aventurier", "Philosophe"],
+        "predictionsAspects": {
+            "love": "Le Sagittaire apporte aventure et optimisme en amour. Recherche un partenaire qui partage sa soif de liberté.",
+            "career": "Excellentes capacités d'enseignement et d'expansion. Réussite dans les projets internationaux.",
+            "health": "Besoin d'activité physique et d'aventure.",
+            "personal": "Développement de la responsabilité et de l'engagement.",
+            "spiritual": "Exploration philosophique et quête de vérité."
+        }
+    },
+    {
+        "name": "Capricorne",
+        "dates": "22 décembre - 19 janvier",
+        "element": "Terre",
+        "quality": "Cardinal",
+        "rulingPlanet": "Saturne",
+        "traits": ["Ambitieux", "Pragmatique", "Discipliné"],
+        "predictionsAspects": {
+            "love": "Le Capricorne approche l'amour avec sérieux et engagement. Recherche une relation stable et durable.",
+            "career": "Grande ambition et détermination. Excellence dans la gestion et l'organisation.",
+            "health": "Importance de la discipline et de la structure.",
+            "personal": "Apprentissage de l'expression émotionnelle et de la flexibilité.",
+            "spiritual": "Développement spirituel à travers la persévérance et la sagesse."
+        }
+    },
+    {
+        "name": "Verseau",
+        "dates": "20 janvier - 18 février",
+        "element": "Air",
+        "quality": "Fixe",
+        "rulingPlanet": "Uranus",
+        "traits": ["Innovant", "Indépendant", "Humanitaire"],
+        "predictionsAspects": {
+            "love": "Le Verseau apporte originalité et indépendance en amour. Recherche une relation basée sur l'amitié et la liberté.",
+            "career": "Innovation et vision futuriste. Excellence dans les nouveaux domaines et technologies.",
+            "health": "Importance de l'équilibre entre corps et esprit.",
+            "personal": "Développement de l'expression émotionnelle et de l'intimité.",
+            "spiritual": "Exploration de nouvelles formes de spiritualité et de conscience collective."
+        }
+    },
+    {
+        "name": "Poissons",
+        "dates": "19 février - 20 mars",
+        "element": "Eau",
+        "quality": "Mutable",
+        "rulingPlanet": "Neptune",
+        "traits": ["Empathique", "Rêveur", "Artiste"],
+        "predictionsAspects": {
+            "love": "Les Poissons sont romantiques et empathiques en amour. Grande capacité de compassion et de connexion émotionnelle.",
+            "career": "Créativité et intuition sont leurs forces. Excellence dans les domaines artistiques et d'aide.",
+            "health": "Importance de l'équilibre émotionnel et spirituel.",
+            "personal": "Développement des limites personnelles et de l'affirmation de soi.",
+            "spiritual": "Forte connexion spirituelle et intuitive naturelle."
+        }
+    }
+]
