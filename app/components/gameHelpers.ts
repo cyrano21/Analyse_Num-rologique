@@ -19,7 +19,7 @@ export const generateMeditationGuide = async (userAnswers: string[]): Promise<st
 
     const meditationGuide = await generatePersonalizedText(
       meditationPrompt, 
-      'gpt2'
+      { model: 'gpt2' }
     );
 
     return meditationGuide;
